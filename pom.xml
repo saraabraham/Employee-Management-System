@@ -63,7 +63,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                     <mainClass>com.sara.emsbackend.EmsBackendApplication</mainClass> <excludes>
+                     <mainClass>com.sara.ems_backend.EmsBackendApplication</mainClass> <excludes>
                         <exclude>
                             <groupId>org.projectlombok</groupId>
                             <artifactId>lombok</artifactId>
@@ -75,6 +75,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
+				
 					<excludes>
 						<exclude>
 							<groupId>org.projectlombok</groupId>
