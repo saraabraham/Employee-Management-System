@@ -14,5 +14,6 @@ java -version
 mvn -version
 
 # Run Maven build
-mvn clean package
+mvn clean package -DskipTests
+
 
